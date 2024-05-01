@@ -1,0 +1,27 @@
+App                                page wrapper
+    navbar                         houses nav links
+    router
+        Homepage                   simple welcome render
+        CompanyList
+            state=companies        list of companies
+            SearchBar              search component for filtering
+                state=formData
+            CompanyCard            individual company component
+                props=companies
+
+        Jobs                       see above, but for jobs
+            SearchBar
+            Jobs
+        
+        Signup                     renders signup wrapper
+            SignupForm             signup form for site
+                state=formData
+        
+        Login                      same as above
+            LoginForm
+
+        Profile                    same as above
+            ProfileEditForm
+
+
+
